@@ -1,0 +1,107 @@
+@import "settings";
+@import "mixins";
+
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "ionic/ionic";
+
+@import "views/base";
+@import "views/home";
+@import "views/location";
+
+
+//dirty hack for top nav traversing through favs/visited
+.bar-header + .pane {
+  z-index: 10;
+}
+
+.popup {
+  &, h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #000;
+  }
+}
+
+.platform-ios7.platform-cordova,
+.platform-ios8.platform-cordova,
+.platform-ios7.platform-browser,
+.platform-ios8.platform-browser {
+  // Duplicate this block from ionic/_platform.scss and modified for iOS8
+  &:not(.fullscreen) {
+    .bar-header:not(.bar-subheader) {
+      height: $bar-height + $ios-statusbar-height;
+
+      &.item-input-inset .item-input-wrapper {
+        margin-top: 19px !important;
+      }
+      &.item-input-inset#search-box {
+        height: $bar-height !important;
+
+        .item-input-wrapper {
+          margin-top: -1px !important;
+        }
+      }
+
+
+      > * {
+        margin-top: $ios-statusbar-height;
+      }
+    }
+    .tabs-top > .tabs,
+    .tabs.tabs-top {
+      top: $bar-height + $ios-statusbar-height;
+    }
+
+    .has-header,
+    .bar-subheader {
+      top: $bar-height + $ios-statusbar-height;
+    }
+    .has-subheader {
+      top: (2 * $bar-height) + $ios-statusbar-height;
+    }
+    .has-tabs-top {
+      top: $bar-height + $tabs-height + $ios-statusbar-height;
+    }
+    .has-header.has-subheader.has-tabs-top {
+      top: 2 * $bar-height + $tabs-height + $ios-statusbar-height;
+    }
+  }
+  &.status-bar-hide {
+    // Cordova doesn't adjust the body height correctly, this makes up for it
+    margin-bottom: 20px;
+  }
+  .bar-header.bar-dark {
+    .button.button-icon {
+      margin-top: 0;
+    }
+  }
+  // .back-button:before {
+  //   margin-top: $ios-statusbar-height;
+  // }
+}
+
+@media (orientation:landscape) {
+  .platform-ios7.platform-browser.platform-ipad,
+  .platform-ios8.platform-browser.platform-ipad {
+    position: fixed; // required for iPad 7 Safari
+  }
+}

@@ -1,0 +1,180 @@
+
+.map-wrapper {
+	z-index: inherit;
+	.scroll {
+		height: 100%;
+	}
+}
+
+#map_all, #map_detail, .angular-google-map, .angular-google-map-container {
+  // width: 100%;
+  // height: 100%;
+	position: absolute !important;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#map_detail, .angular-google-map, .angular-google-map-container {
+	top: 0;
+}
+#map_all {
+	top: $bar-height + $ios-statusbar-height;
+}
+
+.gm-style-iw {
+	h1, h2, h3, h4, p {
+		color: $bg;
+	}
+}
+
+.bar-header.bar-dark {
+	.locations-toggle-wrap {
+		font-size: 0 !important;
+
+		.button.button-icon {
+			border: 1px solid $locations-list-button-color;
+			border-radius: 0;
+			margin: 6px 0 0;
+			padding-left: 22.5px;
+			padding-right: 22.5px;
+			vertical-align: middle;
+			line-height: 29px;
+
+			&:before {
+				font-size: 20px;
+				line-height: 28px;
+			}
+
+			&.active, &.activated {
+				border-color: transparent;
+				background-color: $locations-list-button-color;
+				color: $bg;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.scrollToTop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 37.5px; height: 37.5px;
+	line-height: 37.5px;
+	text-align: center;
+	font-size: 24px;
+	z-index:10;
+	background-color: $bg;
+	color: $base-color;
+
+
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	.icon {
+
+	}
+
+	&.showscrollbtn {
+		opacity: 1;
+	}
+}
+
+
+
+.locations-list {
+	padding: 0 !important;
+
+	.location-item {
+		position: relative;
+		clear: both;
+		padding: 0px;
+		margin: 0px;
+		border: 0 none;
+		padding-bottom: 46.875%;
+		background-position: 50% 0;
+		background-size: cover;
+
+
+		.item-options .button {
+			background-color: rgba(0, 0, 0, 0.75);
+			color: $base-color;
+		}
+
+		&.no-hero, &.no-hero a {
+			background-image: url("../assets/img/landmark_filler.png");
+		}
+
+		a:before {
+			content: " ";
+			position: absolute;
+			top: 40%; right: 0;
+			bottom: 0; left: 0;
+			opacity: 0.65;
+			background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,1,1,0.66) 66%, rgba(0,1,1,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(66%,rgba(0,1,1,0.66)), color-stop(100%,rgba(0,1,1,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,1,1,0.66) 66%,rgba(0,1,1,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,1,1,0.66) 66%,rgba(0,1,1,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,1,1,0.66) 66%,rgba(0,1,1,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,1,1,0.66) 66%,rgba(0,1,1,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#a6000101',GradientType=0 ); /* IE6-9 */
+		}
+
+		> a {
+			position: absolute;
+			top: 0; right: 0;
+			bottom: 0; left: 0;
+			margin: 0;
+			display: block;
+			padding: 0;
+			background-color: transparent;
+			background-size: cover;
+
+			&:after {
+				display: none !important;
+			}
+
+			> .location-title {
+				position: absolute;
+				left: 15px; right: 15px;
+				bottom: 12px;
+
+				> p {
+					width: 65%;
+					margin: 0;
+					font-size: 18px;
+					font-weight: 300;
+					color: #fff;
+					white-space: pre-wrap;
+				}
+
+				> .distance-indicator {
+					position: absolute;
+					right: 0; bottom: 0;
+					font-size: 16px;
+					font-weight: 300;
+					color: #fff;
+					> .digit {
+						font-size: 32px;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+
+	}
+	.item-options {
+		.button {
+			line-height: 150px;
+			padding: 0 43px;
+			.icon {
+				vertical-align: middle;
+			}
+		}
+	}
+}
+
+.location-list li:active {
+	//background-color: #d6d6d6;
+}

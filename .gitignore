@@ -1,0 +1,13 @@
+node_modules/
+
+*.keystore
+*.sw*
+platforms/^.*
+
+scss/.sass-cache
+scss/.sass-cache/*
+
+www/lib/ionic/scss/.sass-cache
+www/lib/ionic/scss/.sass-cache/*
+
+.sass-cache
