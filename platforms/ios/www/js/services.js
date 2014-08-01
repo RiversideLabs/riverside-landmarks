@@ -16,7 +16,7 @@ angular.module('landmarkConnect.services', ['cordovaGeolocationModule'])
 
 .factory('LocationsService', [ '$http', function($http) {
   var locations = [];
-  $http.get('http://landmarkjs-demo.herokuapp.com/api/location/list').success(function(data){
+  $http.get('http://198.199.106.84/api/location/list').success(function(data){
     locations = data.locations;
   });
 
@@ -62,7 +62,7 @@ angular.module('landmarkConnect.services', ['cordovaGeolocationModule'])
 
 .factory('TourService', [ '$http', function($http) {
   var tours = [];
-  $http.get('http://landmarkjs-demo.herokuapp.com/api/tour/list').success(function(data){
+  $http.get('http://198.199.106.84/api/tour/list').success(function(data){
     tours = data.tours;
   });
 
