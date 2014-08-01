@@ -2,6 +2,8 @@
   "name": "riverside-landmarks",
   "version": "1.0.0",
   "dependencies": {
+    "shelljs": "*",
+    "xcode": "0.6.2",
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
     "gulp-concat": "^2.2.0",
