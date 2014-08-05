@@ -1,4 +1,4 @@
-angular.module('landmarkConnect.controllers', ['ngCordova'])
+angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
 
 .controller('MainCtrl', function($scope, $localStorage, $location, $sce, LocationsService, $ionicPlatform, $ionicModal, cordovaGeolocationService) {
@@ -408,7 +408,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova'])
   if (document.getElementById('map_all')) {
     initializeMapAll();
   }
-  
+
 })
 
 
