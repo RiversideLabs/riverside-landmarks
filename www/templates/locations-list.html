@@ -14,11 +14,6 @@
           <p bo-text="loc.commonName"></p>
           <span class="distance-indicator" ng-show="$storage.showDistance"><span class="digit" bo-text="distanceFromHere(loc)"></span><span class="unit">mi</span></span>
         </div>
-        <ion-option-button ng-click="makeFavorite(loc)" ng-hide="isFavorite(loc)" class="button-favorite"><i class="icon ion-ios7-star-outline"></i></ion-option-button>
-        <ion-option-button ng-click="unFavorite(loc)" ng-show="isFavorite(loc)" class="button-favorite active"><i class="icon ion-ios7-star"></i></ion-option-button>
-        <ion-option-button ng-click="makeVisited(loc)" ng-hide="isVisited(loc)" class="button-visited"><i class="icon ion-ios7-checkmark-outline"></i></ion-option-button>
-        <ion-option-button ng-click="unVisit(loc)" ng-show="isVisited(loc)" class="button-visited active"><i class="icon ion-ios7-checkmark"></i></ion-option-button>
-        <ion-option-button ng-click="getDirections(loc)"><i class="icon ion-ios7-navigate-outline"></i></ion-option-button>
       </ion-item>
     </ion-list>
   </ion-content>
