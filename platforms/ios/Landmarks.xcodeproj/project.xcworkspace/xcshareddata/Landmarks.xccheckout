@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F32DAB08-5918-47AC-B863-804799881147</string>
+	<string>21FD137A-C74E-4369-9CFE-9A97F8EF3BD0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Riverside Landmarks</string>
+	<string>Landmarks</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0CE044F5-ED70-43D4-96AC-875C40A16D75</key>
+		<key>6C530A4E-7D18-461A-89D2-90758BEB442D</key>
 		<string>https://github.com/RiversideLabs/riverside-landmarks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/Riverside Landmarks.xcodeproj/project.xcworkspace</string>
+	<string>platforms/ios/Landmarks.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0CE044F5-ED70-43D4-96AC-875C40A16D75</key>
+		<key>6C530A4E-7D18-461A-89D2-90758BEB442D</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0CE044F5-ED70-43D4-96AC-875C40A16D75</string>
+	<string>6C530A4E-7D18-461A-89D2-90758BEB442D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0CE044F5-ED70-43D4-96AC-875C40A16D75</string>
+			<string>6C530A4E-7D18-461A-89D2-90758BEB442D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>riverside-landmarks</string>
 		</dict>

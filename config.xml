@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.city-of-riverside.riverside-landmarks" version="1.0.0" ios-CFBundleVersion="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Riverside Landmarks</name>
+    <name>Landmarks</name>
     <description>
         Powered by Landmark Connect - http://getlandmarkproject.com
     </description>

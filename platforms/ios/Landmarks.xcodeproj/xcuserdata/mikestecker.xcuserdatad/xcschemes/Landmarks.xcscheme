@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "Riverside Landmarks.app"
-               BlueprintName = "Riverside Landmarks"
-               ReferencedContainer = "container:Riverside Landmarks.xcodeproj">
+               BuildableName = "Landmarks.app"
+               BlueprintName = "Landmarks"
+               ReferencedContainer = "container:Landmarks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Riverside Landmarks.app"
-            BlueprintName = "Riverside Landmarks"
-            ReferencedContainer = "container:Riverside Landmarks.xcodeproj">
+            BuildableName = "Landmarks.app"
+            BlueprintName = "Landmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Riverside Landmarks.app"
-            BlueprintName = "Riverside Landmarks"
-            ReferencedContainer = "container:Riverside Landmarks.xcodeproj">
+            BuildableName = "Landmarks.app"
+            BlueprintName = "Landmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Riverside Landmarks.app"
-            BlueprintName = "Riverside Landmarks"
-            ReferencedContainer = "container:Riverside Landmarks.xcodeproj">
+            BuildableName = "Landmarks.app"
+            BlueprintName = "Landmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
