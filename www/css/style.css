@@ -5046,6 +5046,26 @@ button.item.item-button-right {
   color: #aaa;
   font-size: 14px; }
 
+
+
+.location-details-more .item, .location-details-more .item .item-note {
+  font-size: 14px;
+  white-space: normal;
+}
+
+.location-details-more .item .item-note {
+  max-width: 50%;
+  text-align: right;
+}
+
+.location-details-more .item .item-note p {
+  color: #aaa;
+  white-space: normal;
+  text-align: right;
+}
+
+
+
 .item-left-editable .item-content,
 .item-right-editable .item-content {
   -webkit-transition-duration: 250ms;
