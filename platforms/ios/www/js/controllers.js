@@ -23,9 +23,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
   });
   // END SET APP DEFAULTS
 
-  if (ionic.Platform.isAndroid){
+  if (ionic.Platform.isAndroid()){
     $scope.scroll = false;
-  } else if (ionic.Platform.isIOS){
+  } else if (ionic.Platform.isIOS()){
     $scope.scroll = true;
   };
 
@@ -101,9 +101,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 .controller('AboutCtrl', function ($scope) {
   $scope.navTitle = "About Landmark Connect";
 
-  if (ionic.Platform.isAndroid){
+  if (ionic.Platform.isAndroid()){
     $scope.scroll = false;
-  } else if (ionic.Platform.isIOS){
+  } else if (ionic.Platform.isIOS()){
     $scope.scroll = true;
   };
 
@@ -116,9 +116,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
   $scope.navTitle = "Settings";
   $scope.$storage = $localStorage;
 
-  if (ionic.Platform.isAndroid){
+  if (ionic.Platform.isAndroid()){
     $scope.scroll = false;
-  } else if (ionic.Platform.isIOS){
+  } else if (ionic.Platform.isIOS()){
     $scope.scroll = true;
   };
 
@@ -168,9 +168,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
     $scope.$storage.showDistance = false;
   }
 
-  if (ionic.Platform.isAndroid){
+  if (ionic.Platform.isAndroid()){
     $scope.scroll = false;
-  } else if (ionic.Platform.isIOS){
+  } else if (ionic.Platform.isIOS()){
     $scope.scroll = true;
   };
 
@@ -193,9 +193,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
 
   $scope.scrollTop = function() {
-    if (ionic.Platform.isAndroid){
+    if (ionic.Platform.isAndroid()){
       $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, true);
-    } else if (ionic.Platform.isIOS){
+    } else if (ionic.Platform.isIOS()){
       $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, true);
     };
   };
@@ -227,9 +227,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
       $scope.search.showSearch=false;
     } else {
       $scope.search.showSearch=true;
-      if (ionic.Platform.isAndroid){
+      if (ionic.Platform.isAndroid()){
         $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, false);
-      } else if (ionic.Platform.isIOS){
+      } else if (ionic.Platform.isIOS()){
         $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, false);
       };
     }
@@ -237,11 +237,13 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
   // --- START Get Current Location ---
   $scope.getCurrentPosition = function() {
+    var options = { timeout: 30000, enableHighAccuracy: true, maximumAge: 10000 };
     cordovaGeolocationService.getCurrentPosition(function(position) {
       successHandler(position)
     }, function(err) {
       errorHandler(err)
-    });
+    },
+    options);
   };
 
   var successHandler = function(position) {
@@ -426,9 +428,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
   $scope.$storage = $localStorage;
 
-  if (ionic.Platform.isAndroid){
+  if (ionic.Platform.isAndroid()) {
     $scope.scroll = false;
-  } else if (ionic.Platform.isIOS){
+  } else if (ionic.Platform.isIOS()) {
     $scope.scroll = true;
   };
 

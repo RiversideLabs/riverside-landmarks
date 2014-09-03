@@ -151,7 +151,7 @@
 */
 - (BOOL)execute:(CDVInvokedUrlCommand*)command
 {
-    return [super execute:command];
+    //return [super execute:command];
 }
 
 - (NSString*)pathForResource:(NSString*)resourcepath;

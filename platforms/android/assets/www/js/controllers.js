@@ -237,11 +237,13 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
   // --- START Get Current Location ---
   $scope.getCurrentPosition = function() {
+    var options = { timeout: 30000, enableHighAccuracy: true, maximumAge: 10000 };
     cordovaGeolocationService.getCurrentPosition(function(position) {
       successHandler(position)
     }, function(err) {
       errorHandler(err)
-    });
+    },
+    options);
   };
 
   var successHandler = function(position) {

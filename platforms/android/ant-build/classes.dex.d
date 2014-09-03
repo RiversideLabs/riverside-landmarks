@@ -8,6 +8,7 @@
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/riverside_landmarks/R.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
+/Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$3.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/file/ContentFilesystem.class \
@@ -74,5 +75,6 @@
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$1.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
+/Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$3.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
 /Users/mikestecker/Desktop/landmark/riverside-landmarks/platforms/android/ant-build/dexedLibs/classes-2858c0979a672afb8c8c69c96142636d.jar \
