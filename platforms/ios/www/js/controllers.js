@@ -193,7 +193,11 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
 
 
   $scope.scrollTop = function() {
-    $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, true);
+    if (ionic.Platform.isAndroid){
+      $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, true);
+    } else if (ionic.Platform.isIOS){
+      $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, true);
+    };
   };
   $scope.showscrollbtn = false;
   $scope.checkScrollTop = function() {
@@ -223,7 +227,11 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
       $scope.search.showSearch=false;
     } else {
       $scope.search.showSearch=true;
-      $ionicScrollDelegate.scrollTo(0, 44, false);
+      if (ionic.Platform.isAndroid){
+        $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, false);
+      } else if (ionic.Platform.isIOS){
+        $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, false);
+      };
     }
   };
 

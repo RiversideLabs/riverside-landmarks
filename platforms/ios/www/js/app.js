@@ -4,9 +4,9 @@ angular.module('landmarkConnect', ['ionic', 'ngAnimate', 'ngStorage', 'ngCordova
 
   delete $localStorage.currentLocation;
 
-  if($ionicPlatform.is('android')) {
-    alert('This app is meant for iOS and Android 4.4, it will not work on older Androids!');
-  }
+  //if($ionicPlatform.is('android')) {
+  //  alert('This app is meant for iOS and Android 4.4, it will not work on older Androids!');
+  //}
   $ionicPlatform.ready(function() {
     if(window.StatusBar) {
       // org.apache.cordova.statusbar required
