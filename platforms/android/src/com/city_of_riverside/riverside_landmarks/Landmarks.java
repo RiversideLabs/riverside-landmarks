@@ -22,16 +22,13 @@ package com.city_of_riverside.riverside_landmarks;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class Landmarks extends CordovaActivity 
+public class Landmarks extends CordovaActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        super.init();
         // Set by <content src="index.html" /> in config.xml
-        super.loadUrl(Config.getStartUrl());
-        //super.loadUrl("file:///android_asset/www/index.html");
+        loadUrl(launchUrl);
     }
 }
-
