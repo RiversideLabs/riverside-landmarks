@@ -1465,17 +1465,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default@2x~iphone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16871,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default@2x~iphone.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default@2x~iphone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default~iphone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1483,39 +1472,6 @@
 		"initialSize": 10281,
 		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default~iphone.png",
 		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/Default~iphone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1966,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4094,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40@2x.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-40@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-50.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2467,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-50.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-50.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1542,28 +1498,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-60@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7528,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-60@2x.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-60@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3646,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1571,17 +1505,6 @@
 		"initialSize": 7496,
 		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72@2x.png",
 		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-72@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-76.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3851,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-76.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1597,17 +1520,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1560,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1615,28 +1527,6 @@
 		"initialSize": 3381,
 		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small@2x.png",
 		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon-small@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2845,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6690,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon@2x.png",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/icon@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1933,61 +1823,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.geolocation\/www\/PositionError.js",
 		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.geolocation\/www\/min\/PositionError-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.inappbrowser\/www\/inappbrowser.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.inappbrowser\/www\/inappbrowser.js",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.inappbrowser\/www\/min\/inappbrowser-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/Media.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/Media.js",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/min\/Media-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/MediaError.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/MediaError.js",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.media\/www\/min\/MediaError-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.splashscreen\/www\/splashscreen.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.splashscreen\/www\/splashscreen.js",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.splashscreen\/www\/min\/splashscreen-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.statusbar\/www\/statusbar.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.statusbar\/www\/statusbar.js",
-		"outputAbbreviatedPath": "\/platforms\/ios\/build\/emulator\/Landmarks.app\/www\/plugins\/org.apache.cordova.statusbar\/www\/min\/statusbar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3561,12 +3396,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/org.apache.cordova.geolocation\/src\/windows8\/GeolocationProxy.js": {
+	"\/plugins\/org.apache.cordova.geolocation\/src\/windows\/GeolocationProxy.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/src\/windows8\/GeolocationProxy.js",
-		"outputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/src\/windows8\/min\/GeolocationProxy-min.js",
+		"inputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/src\/windows\/GeolocationProxy.js",
+		"outputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/src\/windows\/min\/GeolocationProxy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/org.apache.cordova.geolocation\/tests\/tests.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/tests\/tests.js",
+		"outputAbbreviatedPath": "\/plugins\/org.apache.cordova.geolocation\/tests\/min\/tests-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4537,6 +4383,17 @@
 		"outputAbbreviatedPath": "\/plugins\/org.apache.cordova.statusbar\/RELEASENOTES.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/org.apache.cordova.statusbar\/tests\/tests.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/org.apache.cordova.statusbar\/tests\/tests.js",
+		"outputAbbreviatedPath": "\/plugins\/org.apache.cordova.statusbar\/tests\/min\/tests-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/plugins\/org.apache.cordova.statusbar\/www\/statusbar.js": {
 		"fileType": 64,
@@ -5541,7 +5398,7 @@
 		"outputAbbreviatedPath": "\/www\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0

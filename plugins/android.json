@@ -47,14 +47,6 @@
                             "count": 2
                         },
                         {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
-                        },
-                        {
                             "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
                             "count": 1
                         },
@@ -64,6 +56,14 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
                             "count": 1
                         }
                     ]
@@ -81,9 +81,6 @@
         "org.apache.cordova.file": {
             "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
         },
-        "org.apache.cordova.geolocation": {
-            "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
-        },
         "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
         },
@@ -91,6 +88,9 @@
             "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
         },
         "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
+        },
+        "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "com.city_of_riverside.riverside_landmarks"
         },
         "org.apache.cordova.statusbar": {

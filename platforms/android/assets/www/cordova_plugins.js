@@ -202,11 +202,11 @@ module.exports.metadata =
     "com.ionic.keyboard": "1.0.3",
     "org.apache.cordova.device": "0.2.11",
     "org.apache.cordova.file": "1.3.0",
-    "org.apache.cordova.geolocation": "0.3.9",
     "org.apache.cordova.inappbrowser": "0.5.1",
     "org.apache.cordova.media": "0.2.12",
     "org.apache.cordova.splashscreen": "0.3.2",
-    "org.apache.cordova.statusbar": "0.1.7"
+    "org.apache.cordova.geolocation": "0.3.10",
+    "org.apache.cordova.statusbar": "0.1.8"
 }
 // BOTTOM OF METADATA
 });

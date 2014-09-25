@@ -196,7 +196,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
     if (ionic.Platform.isAndroid()){
       $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, true);
     } else if (ionic.Platform.isIOS()){
-      $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, true);
+      $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 64, true);
     };
   };
   $scope.showscrollbtn = false;
@@ -230,7 +230,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
       if (ionic.Platform.isAndroid()){
         $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 0, false);
       } else if (ionic.Platform.isIOS()){
-        $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 44, false);
+        $ionicScrollDelegate.$getByHandle('locations-list').scrollTo(0, 64, false);
       };
     }
   };

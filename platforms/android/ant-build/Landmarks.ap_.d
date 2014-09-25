@@ -143,7 +143,6 @@
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_scaffolding.scss \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_select.scss \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_slide-box.scss \
-/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_split-pane.scss \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_tabs.scss \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_toggle.scss \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/assets/www/lib/ionic/scss/_type.scss \

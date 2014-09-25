@@ -103,11 +103,11 @@
     .bar-header:not(.bar-subheader) {
       height: $bar-height + $ios-statusbar-height;
 
-      &.item-input-inset .item-input-wrapper {
-        margin-top: 19px !important;
-      }
-
-      > * {
+      // &.item-input-inset .item-input-wrapper {
+      //   margin-top: 19px !important;
+      // }
+      // 
+      > *:not(.item-input-wrapper) {
         margin-top: $ios-statusbar-height;
       }
     }
@@ -147,4 +147,3 @@
   -webkit-transition: none !important;
   transition: none !important;
 }
-

@@ -14,6 +14,7 @@
         class="location-item"
         ng-repeat="loc in locations | filter: searchQuery | orderBy:sortOpt:reverse"
         type="item-text-wrap"
+        overflow-scroll="true"
         back-img="loc.heroThumb">
         <a class="item-content" bo-href="'#/loc/' + loc._id + '/detail'">
           <div class="location-title">
