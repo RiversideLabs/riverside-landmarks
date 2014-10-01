@@ -377,7 +377,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
       if (ionic.Platform.isAndroid()) {
         var url = 'geo:0,0?q=' + locationString;
         url = encodeURI(url);
-        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="/#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\''+url+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
+        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\''+url+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
       } else if (ionic.Platform.isIOS()) {
         if ($scope.$storage.currentLocation != null) {
           var url = 'http://maps.apple.com/?daddr=' + locationString + '&saddr=' + $scope.$storage.currentLocation[0] + ',' + $scope.$storage.currentLocation[1];
@@ -385,9 +385,9 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
           var url = 'http://maps.apple.com/?q=' + locationString;
         }
         url = encodeURI(url);
-        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="/#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\''+url+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
+        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\''+url+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
       } else {
-        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="/#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\'http://maps.google.com/?q='+locationString+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
+        var contentString = '<div style="width:200px;"><h4>' + location.commonName + '</h4><p>' + location.location.street1 + '<br>'+location.location.suburb+', '+location.location.state+' '+location.location.postcode+'</p><p><a href="#/loc/'+location._id+'/detail" class="button button-small button-positive">View Details</a> <a onClick="window.open(\'http://maps.google.com/?q='+locationString+'\',\'_system\',\'location=yes\');return false;" class="button button-small button-positive" target="_system">Get Directions</a></p></div>';
       }
 
       var compiled = $compile(contentString)($scope);
