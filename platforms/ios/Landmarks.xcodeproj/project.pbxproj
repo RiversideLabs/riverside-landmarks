@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -37,6 +38,14 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		FFEA7D6F19DCAB7000A69930 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F794DEE6BC43DE910E68C7 /* CDVDevice.m */; };
+		FFEA7D7019DCAB8800A69930 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2830B2BD58DD4DF9A0DA7A6A /* CDVStatusBar.m */; };
+		FFEA7D7119DCABD100A69930 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F25F4EC3A44EC9B23336E /* CDVFile.m */; };
+		FFEA7D7219DCABE400A69930 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D9C654C604B4F9A02F833 /* CDVAssetLibraryFilesystem.m */; };
+		FFEA7D7419DCAC0900A69930 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C211EB6CE8EE432DAD56EA48 /* CDVLocalFilesystem.m */; };
+		FFEA7D7519DCAC1D00A69930 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46568C8B209E4C42ABF219FF /* CDVLocation.m */; };
+		FFEA7D7619DCAC5F00A69930 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
+		FFEA7D7719DCAC7600A69930 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A8EDF91C2B4053967D04F9 /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEA7D7619DCAC5F00A69930 /* CoreLocation.framework in Frameworks */,
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -455,6 +465,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEA7D7719DCAC7600A69930 /* CDVSplashScreen.m in Sources */,
+				FFEA7D7519DCAC1D00A69930 /* CDVLocation.m in Sources */,
+				FFEA7D7419DCAC0900A69930 /* CDVLocalFilesystem.m in Sources */,
+				FFEA7D7219DCABE400A69930 /* CDVAssetLibraryFilesystem.m in Sources */,
+				FFEA7D7119DCABD100A69930 /* CDVFile.m in Sources */,
+				FFEA7D7019DCAB8800A69930 /* CDVStatusBar.m in Sources */,
+				FFEA7D6F19DCAB7000A69930 /* CDVDevice.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
@@ -536,7 +553,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Landmarks;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,7 +584,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Landmarks;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
