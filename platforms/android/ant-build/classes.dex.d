@@ -1,4 +1,11 @@
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes.dex : \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/BuildConfig.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/Landmarks.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/R$attr.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/R$drawable.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/R$string.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/R$xml.class \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/landmarks/R.class \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/riverside_landmarks/BuildConfig.class \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/riverside_landmarks/Landmarks.class \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-build/classes/com/city_of_riverside/riverside_landmarks/R$attr.class \

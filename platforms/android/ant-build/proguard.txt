@@ -1,3 +1,3 @@
 # view AndroidManifest.xml #generated:6
--keep class com.city_of_riverside.riverside_landmarks.Landmarks { <init>(...); }
+-keep class com.city_of_riverside.landmarks.Landmarks { <init>(...); }
 

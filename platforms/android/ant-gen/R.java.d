@@ -1,4 +1,4 @@
-/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-gen/com/city_of_riverside/riverside_landmarks/R.java \
+/Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/ant-gen/com/city_of_riverside/landmarks/R.java \
  : /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/res/drawable/icon.png \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/res/drawable-hdpi/ic_action_next_item.png \
 /Users/mikestecker/Documents/Projects/Maven/RiversideLandmarks/riverside-landmarks/platforms/android/res/drawable-hdpi/ic_action_previous_item.png \
