@@ -14,7 +14,7 @@
 		<string>https://github.com/RiversideLabs/riverside-landmarks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/Landmarks.xcodeproj/project.xcworkspace</string>
+	<string>platforms/ios/Landmarks.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6E70CE782154AF5F5CA11D3FF1D3693653FA71A7</key>

@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -38,6 +37,9 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		FFDA70A419EC8C3100CD3159 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A87B0C988B4001B22B30CC /* IonicKeyboard.m */; };
+		FFDA70A519EC8C6C00CD3159 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0583897E0AF14F6092615285 /* CDVInAppBrowser.m */; };
+		FFDA70A619EC8C7400CD3159 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE94461F6BD4419B77BF4EA /* CDVSound.m */; };
 		FFEA7D6F19DCAB7000A69930 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F794DEE6BC43DE910E68C7 /* CDVDevice.m */; };
 		FFEA7D7019DCAB8800A69930 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2830B2BD58DD4DF9A0DA7A6A /* CDVStatusBar.m */; };
 		FFEA7D7119DCABD100A69930 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F25F4EC3A44EC9B23336E /* CDVFile.m */; };
@@ -465,6 +467,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDA70A619EC8C7400CD3159 /* CDVSound.m in Sources */,
+				FFDA70A519EC8C6C00CD3159 /* CDVInAppBrowser.m in Sources */,
+				FFDA70A419EC8C3100CD3159 /* IonicKeyboard.m in Sources */,
 				FFEA7D7719DCAC7600A69930 /* CDVSplashScreen.m in Sources */,
 				FFEA7D7519DCAC1D00A69930 /* CDVLocation.m in Sources */,
 				FFEA7D7419DCAC0900A69930 /* CDVLocalFilesystem.m in Sources */,
@@ -553,7 +558,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Landmarks;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Debug;
 		};
@@ -584,7 +589,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Landmarks;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Release;
 		};

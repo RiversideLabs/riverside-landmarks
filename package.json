@@ -1,5 +1,5 @@
 {
-  "name": "riverside-landmarks",
+  "name": "landmarks",
   "version": "1.0.0",
   "dependencies": {
     "shelljs": "*",
