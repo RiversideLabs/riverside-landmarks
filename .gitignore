@@ -2,7 +2,7 @@ node_modules/
 
 *.keystore
 *.sw*
-platforms/^.*
+platforms
 
 scss/.sass-cache
 scss/.sass-cache/*
