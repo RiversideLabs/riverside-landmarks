@@ -90,6 +90,15 @@ angular.module('landmarkConnect', ['ionic', 'ngAnimate', 'ngStorage', 'ngCordova
         }
       }
     })
+    
+    .state('m.credits', {
+      url: "/credits",
+      views: {
+        'menuContent2' :{
+          templateUrl: "templates/credits.html"
+        }
+      }
+    })
 
     // Each tab has its own nav history stack:
 
