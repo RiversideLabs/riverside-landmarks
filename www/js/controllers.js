@@ -263,7 +263,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
     $scope.$storage.showDistance=true;
     $ionicLoading.hide();
     $scope.locations = LocationsService.all();
-    adjustScroll();
+    // adjustScroll();
   };
   var errorHandler = function(err) {
     $scope.showAlert();
@@ -271,7 +271,7 @@ angular.module('landmarkConnect.controllers', ['ngCordova', 'pasvaz.bindonce'])
     $scope.$storage.showDistance=false;
     $ionicLoading.hide();
     $scope.locations = LocationsService.all();
-    adjustScroll();
+    // adjustScroll();
   };
 
   $scope.showAlert = function() {
