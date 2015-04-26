@@ -14,6 +14,12 @@ angular.module('landmarkConnect.services', ['cordovaGeolocationModule'])
   };
 })
 
+.factory('ScrollPositions', [
+  function() {
+    return {};
+  }
+])
+
 .factory('LocationsService', [ '$http', function($http) {
   var locations = [];
   $http.get('http://www.riversideca.gov/landmarks/api/location/list').success(function(data){
